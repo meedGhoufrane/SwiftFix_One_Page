@@ -13,6 +13,24 @@ body {
   padding: 45px 0;
 }
 
+.h_CLIENTS_SAY{
+  padding-top: 80px;
+  color: #0355cc;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mySelect{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: #ffffff;
+    outline: none;
+    color: #000000;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
 }
@@ -43,6 +61,7 @@ body {
 }
 
 .heading_container h2 {
+  color:#0355cc;
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,21 +115,23 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .header_section .header_top .contact_nav a {
-  color: #ffffff;
+  color: #fcfcfc;
 }
 
 .header_section .header_top .contact_nav a i {
-  color: #ff8a1d;
+  color: #0355cc;
 }
 
 .header_section .header_bottom {
   padding: 10px 0;
+  background-color: #0355cc;
 }
 
 .navbar-brand {
@@ -123,8 +144,11 @@ a:focus {
 }
 
 .navbar-brand span {
-  color: #0355cc;
+  color: #ffffff;
   text-transform: uppercase;
+}
+.navbar-brand span:hover{
+  color: #ff8a1d;
 }
 
 .custom_nav-container {
@@ -137,12 +161,13 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 10px 25px;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
+  
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #0355cc;
+  color: #ff8a1d;
 }
 
 .custom_nav-container .form-inline .nav_search-btn {
@@ -173,7 +198,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000000;
+  background-color: #ffffff;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -189,7 +214,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -408,6 +433,7 @@ a:focus {
 }
 
 .about_section .detail-box h2 {
+  color:#0355cc ;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -434,6 +460,7 @@ a:focus {
 }
 
 .about_section .img-box img {
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -589,6 +616,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
 }
 
 .client_section .box .client_id .img-box {
@@ -643,12 +671,16 @@ a:focus {
 .client_section .owl-carousel .owl-nav button {
   width: 50px;
   height: 50px;
-  background-color: #0355cc;
+  background-color: #ff8a1d;
   outline: none;
   margin: 0 20px;
   color: #ffffff;
 }
 
+.client_section .owl-carousel .owl-nav button:hover{
+  background-color: #fff;
+  color: #ff8a1d;
+}
 .heading_container {
   margin-bottom: 30px;
 }
