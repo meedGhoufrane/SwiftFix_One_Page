@@ -22,7 +22,8 @@ body {
 
 .mySelect{
     width: 100%;
-    border: none;
+    border: 1px solid #ccc; /* Add a border */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); /* Add a box shadow */
     height: 50px;
     margin-bottom: 25px;
     padding-left: 25px;
