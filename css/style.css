@@ -674,18 +674,17 @@ a:focus {
   height: 50px;
   background-color: #ff8a1d;
   outline: none;
-  margin: 0 20px;
+  margin: 20px 50px;
   color: #ffffff;
 }
-
 .client_section .owl-carousel .owl-nav button:hover{
   background-color: #fff;
   color: #ff8a1d;
+  border: #ff8a1d solid;
 }
 .heading_container {
   margin-bottom: 30px;
 }
-
 .contact_section input {
   width: 100%;
   border: none;
